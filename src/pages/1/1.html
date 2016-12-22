@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../../dist/vendor/css/foundation-flex.min.css">
+    <link rel="stylesheet" href="../../../dist/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <title>JS exercises</title>
+  </head>
+
+  <body>
+
+    <div class="row align-middle align-center full-height">
+      <div class="column">
+
+        <p>You just pressed key: <span data-pressed></span></p>
+
+        <div class="keys-wrapper">
+          <div class="row text-center">
+
+            <div class="column">
+              <button class="key button" data-key="81">Q</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="87">W</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="69">E</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="82">R</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="84">T</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="85">U</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="73">I</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="79">O</button>
+            </div>
+            <div class="column">
+              <button class="key button" data-key="80">P</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <audio src="../../sounds/boom.wav" data-key="81"></audio>
+    <audio src="../../sounds/clap.wav" data-key="87"></audio>
+    <audio src="../../sounds/hihat.wav" data-key="69"></audio>
+    <audio src="../../sounds/kick.wav" data-key="82"></audio>
+    <audio src="../../sounds/openhat.wav" data-key="84"></audio>
+    <audio src="../../sounds/ride.wav" data-key="85"></audio>
+    <audio src="../../sounds/snare.wav" data-key="73"></audio>
+    <audio src="../../sounds/tink.wav" data-key="79"></audio>
+    <audio src="../../sounds/tom.wav" data-key="80"></audio>
+
+    <script src="../../../dist/js/app.js"></script>
+
+  </body>
+
+</html>

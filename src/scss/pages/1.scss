@@ -1,0 +1,15 @@
+@import "../variables";
+
+.keys-wrapper {
+  background: $emerald;
+}
+
+.key {
+  transition: 0.25s all ease;
+  margin: 1rem 0;
+}
+
+.playing {
+  transform: translateX(-10px) scale(1.25);
+  background-color: $belize;
+}
