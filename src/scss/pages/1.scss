@@ -5,8 +5,10 @@
 }
 
 .key {
-  transition: 0.25s all ease;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  padding: 1.25rem 1.5rem;
+  transition: 0.5s all ease;
+  border: 2px solid $black;
 }
 
 .playing {

@@ -12,15 +12,15 @@
 
     removeClass(element) {
 
-      setTimeout(() => {
+      element.addEventListener("transitionend", () => {
         element.classList.remove("playing");
-      }, 250);
+      });
 
     },
 
     playSound(event) {
 
-      // Use ES6 template literal to dynamically search for desired key and play the sound.
+      // Use ES6 template strings to dynamically search for desired key and play the sound.
       let audio = document.querySelector(`audio[data-key="${event.keyCode}"]`);
       let button = document.querySelector(`button[data-key="${event.keyCode}"]`);
       let notify = document.querySelector(`span[data-pressed]`);
